@@ -4,6 +4,8 @@ namespace dotnet1stConsoleApp
 {
     class Program
     {
+        //private static string intInput;
+
         static void Main(string[] args)
         {
             // First testprogram day 1
