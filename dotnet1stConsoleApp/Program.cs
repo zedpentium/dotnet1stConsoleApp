@@ -5,6 +5,7 @@ namespace dotnet1stConsoleApp
     class Program
     {
         //private static string intInput;
+        //int intInput = 0;
 
         static void Main(string[] args)
         {
@@ -18,10 +19,10 @@ namespace dotnet1stConsoleApp
 
             //Console.WriteLine("Whats your age");
             
-            int intInput = GetInputFromUser("age");
+            //int intInput = GetInputFromUser("age");
 
 
-            Console.WriteLine("\n\nYour age your typed in are: " + intInput);
+            //Console.WriteLine("\n\nYour age your typed in are: " + intInput);
 
             int userSelect;
 
@@ -91,6 +92,8 @@ namespace dotnet1stConsoleApp
 
         static void Bartend()
             {
+                int intInput = GetInputFromUser("age");
+
                 if (intInput > 17)
                 {
                 Console.WriteLine("Here you go, a nice cold beer!");
